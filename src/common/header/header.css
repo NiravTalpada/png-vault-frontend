@@ -1,0 +1,157 @@
+.header-main{
+    width: 100%;
+    /* background-image: url(../../images/banner-new.png); */
+    background-position: center;
+    background-repeat: round;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    /* position: fixed; */
+    /* top: 0; */
+    background-color: #fff;
+    z-index: 2;
+    box-shadow: 0px 0px 20px rgba(0,0,0,.3);
+    padding: 20px 0;
+    box-shadow: 0px 10px 20px rgba(0,0,0,.3);
+}
+.profile-dropdown #dropdown-basic{
+    padding: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border: transparent;
+}
+
+.profile-dropdown #dropdown-basic::after{
+    display: none;
+}
+.profile-dropdown .profile-dropdown-list .profile-dropdown-item{
+    padding: 10px;
+}
+.profile-dropdown .profile-dropdown-list{
+    flex-direction: column !important;
+}
+.profile-dropdown nav{
+    padding: 0;
+}
+.profile-dropdown .profile-dropdown-list .profile-dropdown-item a{
+    color: #000;
+    width: 100%;
+}
+nav a{
+    text-decoration: none;
+    /* padding: 0px 20px; */
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+}
+.serach-box{
+    width: 40%;
+}
+.serach-box .MuiInputBase-root input{
+    padding: 10px 10px;
+    font-family: 'Roboto Slab', serif ;
+    font-size: 18px;
+    border-radius: 13px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.serach-box .MuiInputBase-root fieldset{
+    border-radius: 13px;
+}
+
+.user-account{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+nav .add-cart{
+    padding: 5px 20px;
+    cursor: pointer;
+    position: relative;
+}
+nav .add-cart .cart-count{
+    position: absolute;
+    top: 0;
+    color: #fff;
+    background-color: red;
+    right: 0;
+    border-radius: 50%;
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav a:hover{
+    opacity: 0.7;
+}
+
+.search-bar{
+    text-align: center;
+    height: 300px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+.search-bar .search-bar-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.search-bar h1{
+    color: #fff;
+    font-family: 'Roboto Slab', serif ;
+    font-size: 60px;
+}
+.search-bar h2,.search-bar h3{
+    color: #fff;
+    font-family: 'Roboto Slab', serif ;
+    margin: 20px 0;
+}
+.search-bar .search-bar-section .search-textBox{
+    font-family: 'Roboto Slab', serif ;
+    font-size: 18px;
+    width: 50%;
+    border-radius: 5px;
+    /* margin-top: 10px; */
+    border: none;
+    padding: 10px 10px;
+}
+.search-bar .search-bar-section .search-button{
+    font-family: 'Roboto Slab', serif ;
+    font-size: 18px;
+    width: 12%;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.search-bar .search-bar-section .search-textBox:focus{
+    outline: none;
+}
+.search-bar h3{
+    font-size: 18px;
+}
+
+
+.main-header-title .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: 70px;
+    font-family: 'Roboto Slab', serif ;
+}

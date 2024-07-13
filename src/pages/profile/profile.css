@@ -1,0 +1,20 @@
+.profile-details{
+    /* margin: 50px 0; */
+    margin: 150px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-details .profile{
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+}
+.profile-details .profile img{
+    margin-bottom: 30px;
+    border-radius: 100%;
+}

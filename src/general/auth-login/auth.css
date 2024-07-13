@@ -1,0 +1,58 @@
+.navbar-nav button {
+    background-color: transparent;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+
+  .navbar-nav .login-button{
+    background-color: #038379;
+  }
+  .navbar-nav .login-button:hover{
+    opacity: 0.7;
+    background-color: #038379;
+  }
+
+  .logout-button{
+    text-decoration: none;
+    gap: 5px;
+    display: flex;
+    text-decoration: none;
+    color: #000;
+    /* justify-content: center; */
+  }
+
+  .navbar-nav button svg{
+    /* width: 18px; */
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+  }
+  /* @keyframes glowing {
+    0% {
+      background-color: #2ba805;
+      box-shadow: 0 0 5px #2ba805;
+    }
+    50% {
+      background-color: #49e819;
+      box-shadow: 0 0 20px #49e819;
+    }
+    100% {
+      background-color: #2ba805;
+      box-shadow: 0 0 5px #2ba805;
+    }
+  }
+  .navbar-nav button {
+    animation: glowing 1300ms infinite;
+  } */
