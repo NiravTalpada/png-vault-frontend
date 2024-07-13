@@ -1,0 +1,63 @@
+.uploadBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 100px 0;
+}
+
+.uploadBox .uploadDetails{
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    padding: 30px;
+}
+.uploadBox .uploadDetails h3{
+    font-family: 'Roboto Slab', serif;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.uploadBox .uploadDetails h4{
+    font-family: 'Roboto Slab', serif;
+    text-align: left;
+    font-size: 20px;
+}
+.uploadBox .uploadDetails img{
+    margin-bottom: 30px;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.uploadBox .uploadDetails .imageuploader .uploaded-image{
+    position: relative;
+}
+.uploadBox .uploadDetails .imageuploader .uploader{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    z-index: 99;
+}
+.uploadBox .uploadDetails .form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.uploadBox .uploadDetails .form .button-section{
+    gap:20px !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.uploadBox .uploadDetails .form .button-section button{
+    width: 30%;
+}
+.uploadBox .uploadDetails .form input,textarea,select,option{
+    border-radius: 10px;
+    padding: 10px;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.87);
+}

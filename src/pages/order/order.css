@@ -1,0 +1,12 @@
+.orderDetails{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}  
+.orderDetailstable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

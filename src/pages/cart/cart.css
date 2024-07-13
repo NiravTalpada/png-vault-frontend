@@ -1,0 +1,76 @@
+.card-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.total-amount{
+    margin: 50px 0;
+    font-family: 'Roboto Slab', serif;
+    width: 50%;
+}
+.total-amount .pay-now-buttons{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.total-amount .pay-now-buttons Button{
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    gap: 5px;
+}
+.checkout-table table thead tr th{
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.checkout-table table tbody tr td{
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    width: 50%;
+}
+.checkout-table table tbody tr:last-child{
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.cartaddItem{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 80%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    align-items: center;
+}
+.cartItem{
+    min-width: 300px;
+    font-family: 'Roboto Slab', serif;
+}
+.cartItem h5{
+    font-family: 'Roboto Slab', serif;
+}
+.cartItem p{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 18px;
+    color: green;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.buttons button{ background-color: azure;}
+.buttons p{ margin: 0;}
+.buttons .cartItem__removeButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}

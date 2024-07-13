@@ -1,0 +1,20 @@
+.userList{
+    margin: 150px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.userList .users{
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 10px;
+    width: 70%;
+    text-align: center;
+    padding: 30px;
+}
+.userList .users h3{
+    font-family: 'Roboto Slab', serif;
+    text-align: left;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,318 @@
+.table-responsive .custome-table{
+    width: 100%;
+    margin: 0 auto;
+}
+.main{
+    position: relative;
+    width: 100%;
+    margin: calc(130px - 70px) 0;
+}
+.main h2{
+    /* text-decoration: underline; */
+    font-size: 23px;
+    font-family: 'Roboto Slab', serif ;
+}
+.slick-slide .image-slider{
+    position: relative;
+    height: 600px;
+}
+.slick-slide .image-overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.87);
+    height: 600px;
+    width: 100%;
+    opacity: 0.5;
+}
+.slick-slide img{
+    position: absolute;
+    object-fit: cover;
+    height: 100%; 
+    width : 100%;
+    /* min-height: 600px; */
+}
+.slick-slide .slider-text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    height: 600px;
+    width: 50%;
+    margin-left: 50px;
+}
+.slick-slide .slider-text h1,.slick-slide .slider-text p{
+    color: #fff;
+}
+.slick-slide .slider-text p{
+    font-size: 18px;
+}
+.main .image-list .empty-message{
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 50px;
+}
+.main .image-list{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 30px;
+    
+}
+.main .admin-images:hover .image-details{
+    display: flex !important;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+}
+.main .admin-images .image-details{
+    height: 100% !important;
+}
+.main .images .discount-tag{
+    position: absolute;
+    top : 30px;
+    left: 0;
+}
+.main .images .discount-tag .discount-image{
+    position: relative;
+    width: 83px;
+    height: 60px;
+}
+.amount .discount-price-show .amount-cal .main-amount{
+    text-decoration: line-through;
+    margin-bottom: 0;
+}
+.amount .discount-price-show .amount-cal .discont-amount{
+    margin-bottom: 0;
+    color: green;
+}
+.amount .discount-price-show .discount-per{
+    color: green;
+    font-size: 16px;
+}
+.main .images .discount-tag .discount-lable{
+    position: absolute;
+    left: 17px;
+    top: 23px;
+    color: #fff;
+    font-size: 15px;
+    rotate: 10deg;
+}
+.main .image-list .images{
+    position: relative;
+    transition: transform .1s;
+    height: 260px;
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.main .image-list .images .pricing-tag{
+    position: absolute;
+    top : 10px;
+    left: 10px;
+    transition: transform .1s;
+    color: #fff;
+    /* background-image: url(../../images/pricing-tag.png); */
+    /* background-size: 100%; */
+    /* background-repeat: no-repeat; */
+    /* padding: 15px 15px; */
+    z-index: 9;
+}
+.main .image-list .images .pricing-tag:hover{
+    transform: scale(2.1);
+    cursor: pointer;
+}
+.main .image-list .image{
+    width : 100%;
+    height : 100%;
+    max-width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.main .image-list .images .image-details{
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100px;
+    width: 100%;
+    display: none;
+    border-radius: 10px;
+    transition: transform .2s;
+}
+.main .image-list .images .image-details span{
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif ;
+}
+.main .image-list .images .image-details p{
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Roboto Slab', serif;
+    width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3
+}
+.main .image-list .images:hover{
+    transform: scale(1.1); 
+    cursor: pointer;
+}
+.main .image-list .images:hover .pricing-tag{
+    animation: pricingtag 2s infinite;
+}
+
+@keyframes pricingtag {
+    50% {transform: rotate(180deg);}
+}
+.main .image-list .images:hover .image-details{
+    display: block;
+    /* transform: scale(1.1); */
+    padding: 5px 10px;
+}
+.image-model .model-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+.image-model .model-content .model-image{
+    width: 50%;
+    object-fit: cover;
+    position: relative;
+}
+.image-model .model-content .model-image .pricing-tag{
+    position: absolute;
+    top : 50px;
+    left: 0;
+    font-family: 'Roboto Slab', serif ;
+    font-size: 20px;
+}
+.image-model .model-content .model-image .pricing-tag .discount-image{ position: absolute; left: 0;}
+.image-model .model-content .model-image .pricing-tag .discount-lable{
+    position: absolute;
+    color: #fff;
+    width: max-content;
+    left: 30px;
+    top: 18px;
+    rotate: 3deg;
+    font-family: 'Roboto Slab', serif ;
+}
+
+.image-model .model-content .model-image .pricing-tag img{
+    width: 120px;
+    height: 60px;
+}
+.image-model .model-content .model-text{
+    width: 50%;
+    padding: 30px;
+    font-family: 'Roboto Slab', serif ;
+}
+.image-model .model-content .model-image img{
+    width: 100%;
+    height: 800px;
+}
+.image-model .model-content .model-button{ gap: 20px; display: flex; flex-direction: row; justify-content: center;margin: 50px 0;}
+.image-model .model-content .model-button button{
+    width: 200px;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+} 
+
+.update-image-model .model-content{
+    padding: 30px;
+}
+.update-image-model .model-content .form .button-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.update-image-model .model-content .form .button-section button{
+    width: 50%;
+}
+
+.update-image-model .model-content h2{
+    font-family: 'Roboto Slab', serif;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.update-image-model .model-content .uploaded-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+.update-image-model .model-content .uploaded-image img{
+    object-fit: contain;
+    border-radius: 10px;
+    
+}
+
+.update-image-model .model-content .form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.update-image-model .model-content .form input,textarea,select,option{
+    border-radius: 10px;
+    padding: 10px;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.87);
+}
+
+.add-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.add-images .addnew{
+    padding: 20px;
+    background-color: #038379;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.main .catagory-sidebar{
+    margin-bottom: 50px;
+}
+
+.main .catagory-sidebar .react-tabs{
+    text-align: center;
+}
+.main .catagory-sidebar .react-tabs .react-tabs__tab-list{
+    border: none;
+}
+.main .catagory-sidebar .react-tabs .react-tabs__tab-list .react-tabs__tab{
+    padding: 10px 50px;
+    border: transparent;
+    bottom: 0;
+    
+}
+.main .catagory-sidebar .react-tabs .react-tabs__tab-list .react-tabs__tab--selected{
+    background-color: #F7F7F7;
+    border-radius: 20px;
+    border-bottom: 1px;
+}
+.remove-image-model .model-content{
+    padding: 20px;
+}
+.remove-image-model .model-content .access-button{
+    display: flex;
+    flex-direction: row;
+    gap : 10px
+}
