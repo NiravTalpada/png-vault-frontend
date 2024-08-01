@@ -68,7 +68,7 @@ const { user, isAuthenticated, getAccessTokenSilently, loginWithRedirect } = use
                     alert("Razorpay SDK failed to load. Are you online?");
                     return;
                 }
-                const orderURL = "http://localhost:8080/api/payment/order";
+                const orderURL = "https://pngvalt-backend.vercel.app:3000/api/payment/order";
                 const {data} = await axios.post(orderURL,lineItems,{headers:{"Content-Type" : "application/json"}})
                 const options = {
                     key: "rzp_test_KuBIpixxRAhdkY", // Enter the Key ID generated from the Dashboard
@@ -89,7 +89,7 @@ const { user, isAuthenticated, getAccessTokenSilently, loginWithRedirect } = use
                             headers: { 'Content-Type': 'application/json' },
                             body: JSON.stringify(data)
                         };
-                        fetch('http://localhost:8080/api/payment/verify', requestOptions)
+                        fetch('https://pngvalt-backend.vercel.app:3000/api/payment/verify', requestOptions)
                         .then(response => response.json())
                         .then((responseMessage,index) => {
                             if(responseMessage.message == 'Payment verified successfully'){
