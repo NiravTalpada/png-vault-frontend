@@ -76,10 +76,12 @@ function UploadImages() {
                     <textarea  placeholder="Image Description" onChange={(e)=> setImageDescription(e.target.value)} />
                     <select onChange={(e)=> setCatagory(e.target.value)}>
                         <option>Select Catagory</option>
-                        <option>Food</option>
-                        <option>Natural</option>
-                        <option>Art</option>
-                    </select>
+    <option>Stokes</option>
+    <option>Vectors</option>
+    <option>Icons</option>
+    <option>PSD</option>
+    <option>Mockups</option>
+    <option>Videos</option>             </select>
                     <select onChange={(e)=> setpricing(e.target.value)}>
                         <option>Select Pricing</option>
                        <option>Free</option>
