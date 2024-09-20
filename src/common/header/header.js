@@ -81,7 +81,7 @@ export default function Header() {
         <Container fluid>
           <Row>
             <Col sm="2" md="2" xl="2" className="d-flex justify-content-center align-items-center">
-              <Link to="/"><Image src={siteLogo} width={180}/></Link>
+              <Link to="/"><Image src={siteLogo} width={140}/></Link>
             </Col>
             
             {isAuthenticated && user.name !== "admin" ? 

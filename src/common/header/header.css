@@ -9,9 +9,9 @@
     /* top: 0; */
     background-color: #fff;
     z-index: 2;
-    box-shadow: 0px 0px 20px rgba(0,0,0,.3);
-    padding: 20px 0;
-    box-shadow: 0px 10px 20px rgba(0,0,0,.3);
+    /* box-shadow: 0px 0px 20px rgba(0,0,0,.3); */
+    /* padding: 10px 0; */
+    /* box-shadow: 0px 10px 20px rgba(0,0,0,.3); */
 }
 .profile-dropdown #dropdown-basic{
     padding: 0;
@@ -53,12 +53,12 @@ nav a{
     padding: 10px 10px;
     font-family: 'Roboto Slab', serif ;
     font-size: 18px;
-    border-radius: 13px;
+    border-radius: 3px;
     background-color: #fff;
     overflow: hidden;
 }
 .serach-box .MuiInputBase-root fieldset{
-    border-radius: 13px;
+    border-radius: 3px;
 }
 
 .user-account{
